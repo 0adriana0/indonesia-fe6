@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Indonesia</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -265,7 +271,7 @@
             <img src="./img/life/cyclist.png" alt="cyclist" />
           </picture>
         </div>
-        <div class="circle">
+        <div class="circle circle--pink">
           <svg class="life__svg">
             <use href="./img/icons/symbol-defs.svg#icon-play"></use>
           </svg>
@@ -286,7 +292,7 @@
                 <img src="./img/life/palm.png" alt="palm"
               /></picture>
             </div>
-            <h6 class="life-list__subtitle">In The Country</h6>
+            <h4 class="life-list__subtitle">In The Country</h4>
             <p class="life-list__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               dapibus mauris in lectus tempus.
@@ -307,14 +313,59 @@
                 <img src="./img/life/city.png" alt="city"
               /></picture>
             </div>
-            <h6 class="life-list__subtitle">In The City</h6>
+            <h4 class="life-list__subtitle">In The City</h4>
             <p class="life-list__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              dapibus mauris in.
             </p>
           </li>
         </ul>
       </section>
-
+      <section class="gallery">
+        <h2 class="gallery__title">Photo Gallery</h2>
+        <p class="gallery__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          dapibus mauris in lectus tempus, eget tincidunt.
+        </p>
+        <ul class="gallery-list">
+          <li class="gallery-list__item">
+            <img class="gallery-list__img gallery-list__img--large"
+              src="./img/gallery/girls.jpg"
+              srcset="img/gallery/girls.jpg 1x, img/gallery/girls@2x.jpg 2x"
+              alt="girls"
+            />
+            <img class="gallery-list__img gallery-list__img--small"
+              src="./img/gallery/sea.jpg"
+              srcset="img/gallery/sea.jpg 1x, img/gallery/sea@2x.jpg 2x"
+              alt="sea"
+            />
+          </li>
+          <li class="gallery-list__item">
+            <img class="gallery-list__img gallery-list__img--small"
+              src="./img/gallery/vulcan.jpg"
+              srcset="img/gallery/vulcan.jpg 1x, img/gallery/vulcan@2x.jpg 2x"
+              alt="vulcan"
+            />
+            <img class="gallery-list__img gallery-list__img--large"
+              src="./img/gallery/mountain.jpg"
+              srcset="img/gallery/mountain.jpg 1x, img/gallery/mountain@2x.jpg 2x"
+              alt="mountain"
+            />
+          </li>
+          <li class="gallery-list__item">
+            <img class="gallery-list__img gallery-list__img--medium"
+              src="./img/gallery/lawn.jpg"
+              srcset="img/gallery/lawn.jpg 1x, img/gallery/lawn@2x.jpg 2x"
+              alt="lawn"
+            />
+            <img class="gallery-list__img gallery-list__img--medium"
+              src="./img/gallery/village.jpg"
+              srcset="img/gallery/village.jpg 1x, img/gallery/village@2x.jpg 2x"
+              alt="girls"
+            />
+          </li>
+        </ul>
+      </section>
       <section class="helping">
         <h2 class="helping__title">Getting there</h2>
         <ul class="helping-list">
@@ -394,7 +445,7 @@
             <a href="#" class="footer-list__link">Blog</a>
           </li>
         </ul>
-  
+
         <ul class="social-list">
           <li class="social-list__item">
             <a href="#" class="social-list__link">
@@ -418,7 +469,7 @@
             </a>
           </li>
         </ul>
-  
+
         <p class="copyright">Copyright © 2019</p>
       </footer>
     </main>
