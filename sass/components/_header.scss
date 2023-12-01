@@ -1,17 +1,45 @@
 .header {
-    position: absolute;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
 }
 
-.header-container {
-  padding: 48px 24px 0 24px;
+.header .inner-container {
+  padding: 48px 30px 0;
 }
 
 .header-logo {
-  width: 148px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 94px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 0.8;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
 
   &__svg {
     fill: #fff;
-    width: 21px;
-    height: 43px;
+    width: 42px;
+    height: 42px;
   }
+
+  .logo-text {
+    background: linear-gradient(
+      180deg,
+      #fff 28.49%,
+      rgba(255, 255, 255, 0) 83.19%
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.header-navigation {
+  display: none;
 }
