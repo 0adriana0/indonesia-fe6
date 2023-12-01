@@ -14,422 +14,441 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="container">
-      <div class="header-container">
-        <a class="header-logo" href="./index.html">
-          <svg>
-            <use href="./img/icons/symbol-defs.svg#icon-flower"></use>
-          </svg>
-          Explore Indonesia</a
-        >
+    <div class="outer-container">
+      <header id="header" class="header">
+        <div class="header-container">
+          <div class="inner-container">
+          <a class="header-logo" href="./index.html">
+            <svg>
+              <use href="./img/icons/symbol-defs.svg#icon-flower"></use>
+            </svg>
+            Explore Indonesia</a
+          >
 
-        <nav class="header-navigation">
-          <ul class="header-list">
-            <li class="header-list__item">
-              <a href="#" class="header-list__link">destinations</a>
-            </li>
-            <li class="header-list__item">
-              <a href="#" class="header-list__link">experiences</a>
-            </li>
-            <li class="header-list__item">
-              <a href="#" class="header-list__link">about</a>
-            </li>
-            <li class="header-list__item">
-              <a href="#" class="header-list__link">gallery</a>
-            </li>
-          </ul>
-        </nav>
+          <nav class="header-navigation">
+            <ul class="header-list">
+              <li class="header-list__item">
+                <a href="#" class="header-list__link">destinations</a>
+              </li>
+              <li class="header-list__item">
+                <a href="#" class="header-list__link">experiences</a>
+              </li>
+              <li class="header-list__item">
+                <a href="#" class="header-list__link">about</a>
+              </li>
+              <li class="header-list__item">
+                <a href="#" class="header-list__link">gallery</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </header>
+      </header>
 
-    <main class="main">
-      <section class="hero">
-        <h1 class="hero__title">explore indonesia</h1>
+      <main class="main">
+        <section class="hero">
+          <div class="inner-container">
+          <h1 class="hero__title">explore indonesia</h1>
 
-        <button type="button" class="hero__button">Start travelling</button>
+          <button type="button" class="hero__button">Start travelling</button>
 
-        <!-- //////////////// -->
+          <!-- //////////////// -->
 
-        <div class="hero__box">
-          <ul class="hero-list">
-            <li class="hero-list__item">
-              <p class="hero-list__number">01</p>
+          <div class="hero__box">
+            <ul class="hero-list">
+              <li class="hero-list__item">
+                <p class="hero-list__number">01</p>
 
-              <h3 class="hero-list__title">Title here</h3>
+                <h3 class="hero-list__title">Title here</h3>
 
-              <p class="hero-list__paragraph">
-                Lorem ipsum dolor sit <br />
-                amet et amet ist ame.
-              </p>
+                <p class="hero-list__paragraph">
+                  Lorem ipsum dolor sit <br />
+                  amet et amet ist ame.
+                </p>
+              </li>
+              <li class="hero-list__item">
+                <p class="hero-list__number">02</p>
+
+                <h3 class="hero-list__title">Title here</h3>
+
+                <p class="hero-list__paragraph">
+                  Lorem ipsum dolor sit <br />
+                  amet et amet ist ame.
+                </p>
+              </li>
+              <li class="hero-list__item">
+                <p class="hero-list__number">03</p>
+
+                <h3 class="hero-list__title">Title here</h3>
+
+                <p class="hero-list__paragraph">
+                  Lorem ipsum dolor sit <br />
+                  amet et amet ist ame.
+                </p>
+              </li>
+            </ul>
+
+            <div class="hero-thumb">
+              <div class="hero-thumb__play">
+                <svg class="hero-thumb__svg">
+                  <use href="./img/icons/symbol-defs.svg#icon-play-arrow"></use>
+                </svg>
+              </div>
+              <img
+                src="./img/hero/beach.jpg"
+                srcset="./img/hero/beach.jpg 1x, ./img/hero/beach@2x.jpg 2x"
+                class="hero-thumb__img"
+                alt="beach"
+              />
+            </div>
+
+            <!-- фото з правого нижнього куту на макеті -->
+          </div>
+          </div>
+        </section>
+        <section class="articles">
+          <div class="inner-container">
+          <ul class="articles-list">
+            <li class="articles-list__item">
+              <div class="articles-list__thumb">
+                <img
+                  class="articles-list__img"
+                  src="./img/articles/articles1.jpg"
+                  alt="articlesone"
+                />
+              </div>
+              <div class="articles-list__box">
+                <h2 class="articles-list__title">
+                  The walkways of Indonesia spellbind
+                </h2>
+                <p class="articles-list__text">
+                  Lorem ipsum dolor sit amet, conse ctetur adip iscing elit.
+                  Fusce commodo magna et libero mollis rhoncus.
+                </p>
+                <button type="button" class="articles-list__btn">
+                  Learn More
+                </button>
+              </div>
             </li>
-            <li class="hero-list__item">
-              <p class="hero-list__number">02</p>
-
-              <h3 class="hero-list__title">Title here</h3>
-
-              <p class="hero-list__paragraph">
-                Lorem ipsum dolor sit <br />
-                amet et amet ist ame.
-              </p>
-            </li>
-            <li class="hero-list__item">
-              <p class="hero-list__number">03</p>
-
-              <h3 class="hero-list__title">Title here</h3>
-
-              <p class="hero-list__paragraph">
-                Lorem ipsum dolor sit <br />
-                amet et amet ist ame.
-              </p>
+            <li class="articles-list__item">
+              <div class="articles-list__thumb">
+                <img
+                  class="articles-list__img"
+                  src="./img/articles/articles2.jpg"
+                  alt="articlesone"
+                />
+              </div>
+              <div class="articles-list__box">
+                <h2 class="articles-list__title">
+                  Perfect beaches exude relaxation and fun
+                </h2>
+                <p class="articles-list__text">
+                  Lorem ipsum dolor sit amet, conse ctetur adip iscing elit.
+                  Fusce commodo magna et libero mollis rhoncus.
+                </p>
+                <button type="button" class="articles-list__btn">
+                  Learn More
+                </button>
+              </div>
             </li>
           </ul>
+          </div>
+        </section>
 
-          <div class="hero-thumb">
-            <div class="hero-thumb__play">
-              <svg class="hero-thumb__svg">
-                <use href="./img/icons/symbol-defs.svg#icon-play-arrow"></use>
+        <section class="secrets">
+          <div class="inner-container">
+          <h2 class="secrets__title">Explore Our Secrets</h2>
+          <div class="carousel">
+            <div class="carousel-mobile">
+              <svg class="carousel-mobile__left">
+                <use
+                  href="./img/icons/symbol-defs.svg#icon-secret-union-left"
+                ></use>
+              </svg>
+              <img
+                src="./img/secret-img/secret-mobile.jpg"
+                alt="beach"
+                class="carousel-mobile__img"
+              />
+              <svg class="carousel-mobile__right">
+                <use
+                  href="./img/icons/symbol-defs.svg#icon-secret-union-right"
+                ></use>
+              </svg>
+            </div>
+            <div class="carousel-desktop">
+              <svg class="carousel-mobile__left">
+                <use
+                  href="./img/icons/symbol-defs.svg#icon-secret-union-left"
+                ></use>
+              </svg>
+              <ul class="carousel-list">
+                <li class="carousel-list__item">
+                  <img
+                    src="./img/secret-img/secret-1.jpg"
+                    alt="sea and mountain"
+                    class="carousel-list__img"
+                  />
+                </li>
+                <li class="carousel-list__item">
+                  <img
+                    src="./img/secret-img/secret-2.jpg"
+                    alt="kids"
+                    class="carousel-list__img"
+                  />
+                </li>
+                <li class="carousel-list__item">
+                  <img
+                    src="./img/secret-img/secret-3.jpg"
+                    alt="mountain"
+                    class="carousel-list__img"
+                  />
+                </li>
+              </ul>
+              <svg class="carousel-mobile__right">
+                <use
+                  href="./img/icons/symbol-defs.svg#icon-secret-union-right"
+                ></use>
               </svg>
             </div>
             <img
-              src="./img/beach.jpg"
-              srcset="./img/beach.jpg 1x, ./img/beach@2x.jpg 2x"
-              class="hero-thumb__img"
-              alt="beach"
+              class="carousel-details"
+              src="./img/secret-img/secret-details.jpg"
+              alt="details"
             />
           </div>
-
-          <!-- фото з правого нижнього куту на макеті -->
-        </div>
-      </section>
-      <section class="articles">
-        <ul class="articles-list">
-          <li class="articles-list__item">
-            <div class="articles-list__thumb">
-              <img
-                class="articles-list__img"
-                src="./img/articles/articles1.jpg"
-                alt="articlesone"
-              />
-            </div>
-            <div class="articles-list__box">
-              <h2 class="articles-list__title">
-                The walkways of Indonesia spellbind
-              </h2>
-              <p class="articles-list__text">
-                Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
-                commodo magna et libero mollis rhoncus.
-              </p>
-              <button type="button" class="articles-list__btn">
-                Learn More
-              </button>
-            </div>
-          </li>
-          <li class="articles-list__item">
-            <div class="articles-list__thumb">
-              <img
-                class="articles-list__img"
-                src="./img/articles/articles2.jpg"
-                alt="articlesone"
-              />
-            </div>
-            <div class="articles-list__box">
-              <h2 class="articles-list__title">
-                Perfect beaches exude relaxation and fun
-              </h2>
-              <p class="articles-list__text">
-                Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
-                commodo magna et libero mollis rhoncus.
-              </p>
-              <button type="button" class="articles-list__btn">
-                Learn More
-              </button>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <section class="secrets">
-        <h2 class="secrets__title">Explore Our Secrets</h2>
-        <div class="carousel">
-          <div class="carousel-mobile">
-            <svg class="carousel-mobile__left">
-              <use
-                href="./img/icons/symbol-defs.svg#icon-secret-union-left"
-              ></use>
-            </svg>
-            <img
-              src="./img/secret-img/secret-mobile.jpg"
-              alt="beach"
-              class="carousel-mobile__img"
-            />
-            <svg class="carousel-mobile__right">
-              <use
-                href="./img/icons/symbol-defs.svg#icon-secret-union-right"
-              ></use>
-            </svg>
-          </div>
-          <div class="carousel-desktop">
-            <svg class="carousel-mobile__left">
-              <use
-                href="./img/icons/symbol-defs.svg#icon-secret-union-left"
-              ></use>
-            </svg>
-            <ul class="carousel-list">
-              <li class="carousel-list__item">
-                <img
-                  src="./img/secret-img/secret-1.jpg"
-                  alt="sea and mountain"
-                  class="carousel-list__img"
-                />
+          <div class="statistics">
+            <h2 class="statistics__title">By The Numbers</h2>
+            <p class="statistics__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              commodo magna et libero.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+            <ul class="statistics-list">
+              <li class="statistics-list__item">
+                <h3 class="statistics-list__title">100+</h3>
+                <p class="statistics-list__info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  commodo magna et libero.
+                </p>
               </li>
-              <li class="carousel-list__item">
-                <img
-                  src="./img/secret-img/secret-2.jpg"
-                  alt="kids"
-                  class="carousel-list__img"
-                />
+              <li class="statistics-list__item">
+                <h3 class="statistics-list__title">43,000+</h3>
+                <p class="statistics-list__info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  commodo.
+                </p>
               </li>
-              <li class="carousel-list__item">
-                <img
-                  src="./img/secret-img/secret-3.jpg"
-                  alt="mountain"
-                  class="carousel-list__img"
-                />
+              <li class="statistics-list__item">
+                <h3 class="statistics-list__title">30+</h3>
+                <p class="statistics-list__info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  commodo magna et libero.
+                </p>
               </li>
             </ul>
-            <svg class="carousel-mobile__right">
-              <use
-                href="./img/icons/symbol-defs.svg#icon-secret-union-right"
-              ></use>
+          </div>
+          </div>
+        </section>
+
+        <section class="hills">
+          <div class="inner-container">
+          <h2 class="hills__title">
+            Our hills and valleys are like nothing you’ve seen.
+          </h2>
+          <p class="hills__parag">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
+            amet magna commodo, tempus dolor sit amet, laoreet elit. Donec
+            mauris tortor.
+          </p>
+          <button type="button" class="hills__btn">Learn More</button>
+          </div>
+        </section>
+        <section class="life">
+          <div class="inner-container">
+          <h2 class="life__title">
+            Live a life like you wouldn’t imagine, experience a life you
+            wouldn’t expect.
+          </h2>
+          <div class="life__thumb">
+            <picture>
+              <source
+                srcset="./img/life/cyclist.png 1x, ./img/life/cyclist@2x.png 2x"
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="./img/life/cyclist.png 1x, ./img/life/cyclist@2x.png 2x"
+                media="(max-width: 1199px)"
+              />
+              <img src="./img/life/cyclist.png" alt="cyclist" />
+            </picture>
+          </div>
+          <div class="circle">
+            <svg class="life__svg">
+              <use href="./img/icons/symbol-defs.svg#icon-play"></use>
             </svg>
           </div>
-          <img
-            class="carousel-details"
-            src="./img/secret-img/secret-details.jpg"
-            alt="details"
-          />
-        </div>
-        <div class="statistics">
-          <h2 class="statistics__title">By The Numbers</h2>
-          <p class="statistics__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            commodo magna et libero.Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-          </p>
-          <ul class="statistics-list">
-            <li class="statistics-list__item">
-              <h3 class="statistics-list__title">100+</h3>
-              <p class="statistics-list__info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                commodo magna et libero.
+          <ul class="life-list">
+            <li class="life-list__item">
+              <div class="life__thumb">
+                <picture>
+                  <source
+                    srcset="
+                      img/life/desktop/palm.png    1x,
+                      img/life/desktop/palm@2x.png 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="img/life/palm.png 1x, img/life/palm@2x.png 2x"
+                    media="(max-width: 1199px)" />
+                  <img src="./img/life/palm.png" alt="palm"
+                /></picture>
+              </div>
+              <h6 class="life-list__subtitle">In The Country</h6>
+              <p class="life-list__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus dapibus mauris in lectus tempus.
               </p>
             </li>
-            <li class="statistics-list__item">
-              <h3 class="statistics-list__title">43,000+</h3>
-              <p class="statistics-list__info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                commodo.
-              </p>
-            </li>
-            <li class="statistics-list__item">
-              <h3 class="statistics-list__title">30+</h3>
-              <p class="statistics-list__info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                commodo magna et libero.
+            <li class="life-list__item">
+              <div class="life__thumb">
+                <picture>
+                  <source
+                    srcset="
+                      img/life/desktop/city.png    1x,
+                      img/life/desktop/city@2x.png 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="img/life/city.png 1x, img/life/city@2x.png 2x"
+                    media="(max-width: 1199px)" />
+                  <img src="./img/life/city.png" alt="city"
+                /></picture>
+              </div>
+              <h6 class="life-list__subtitle">In The City</h6>
+              <p class="life-list__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus dapibus mauris in.
               </p>
             </li>
           </ul>
-        </div>
-      </section>
+          </div>
+        </section>
 
-      <section class="hills">
-        <h2 class="hills__title">
-          Our hills and valleys are like nothing you’ve seen.
-        </h2>
-        <p class="hills__parag">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-          amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris
-          tortor.
-        </p>
-        <button type="button" class="hills__btn">Learn More</button>
-      </section>
-      <section class="life">
-        <h2 class="life__title">
-          Live a life like you wouldn’t imagine, experience a life you wouldn’t
-          expect.
-        </h2>
-        <div class="life__thumb">
-          <picture>
-            <source
-              srcset="./img/life/cyclist.png 1x, ./img/life/cyclist@2x.png 2x"
-              media="(min-width: 1200px)"
-            />
-            <source
-              srcset="./img/life/cyclist.png 1x, ./img/life/cyclist@2x.png 2x"
-              media="(max-width: 1199px)"
-            />
-            <img src="./img/life/cyclist.png" alt="cyclist" />
-          </picture>
-        </div>
-        <div class="circle circle--pink">
-          <svg class="life__svg">
-            <use href="./img/icons/symbol-defs.svg#icon-play"></use>
-          </svg>
-        </div>
-        <ul class="life-list">
-          <li class="life-list__item">
-            <div class="life__thumb">
-              <picture>
-                <source
-                  srcset="
-                    img/life/desktop/palm.png    1x,
-                    img/life/desktop/palm@2x.png 2x
-                  "
-                  media="(min-width: 1200px)" />
-                <source
-                  srcset="img/life/palm.png 1x, img/life/palm@2x.png 2x"
-                  media="(max-width: 1199px)" />
-                <img src="./img/life/palm.png" alt="palm"
-              /></picture>
-            </div>
-            <h4 class="life-list__subtitle">In The Country</h4>
-            <p class="life-list__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              dapibus mauris in lectus tempus.
-            </p>
-          </li>
-          <li class="life-list__item">
-            <div class="life__thumb">
-              <picture>
-                <source
-                  srcset="
-                    img/life/desktop/city.png    1x,
-                    img/life/desktop/city@2x.png 2x
-                  "
-                  media="(min-width: 1200px)" />
-                <source
-                  srcset="img/life/city.png 1x, img/life/city@2x.png 2x"
-                  media="(max-width: 1199px)" />
-                <img src="./img/life/city.png" alt="city"
-              /></picture>
-            </div>
-            <h4 class="life-list__subtitle">In The City</h4>
-            <p class="life-list__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              dapibus mauris in.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="gallery">
-        <h2 class="gallery__title">Photo Gallery</h2>
-        <p class="gallery__subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          dapibus mauris in lectus tempus, eget tincidunt.
-        </p>
-        <ul class="gallery-list">
-          <li class="gallery-list__item">
-            <img class="gallery-list__img gallery-list__img--large"
-              src="./img/gallery/girls.jpg"
-              srcset="img/gallery/girls.jpg 1x, img/gallery/girls@2x.jpg 2x"
-              alt="girls"
-            />
-            <img class="gallery-list__img gallery-list__img--small"
-              src="./img/gallery/sea.jpg"
-              srcset="img/gallery/sea.jpg 1x, img/gallery/sea@2x.jpg 2x"
-              alt="sea"
-            />
-          </li>
-          <li class="gallery-list__item">
-            <img class="gallery-list__img gallery-list__img--small"
-              src="./img/gallery/vulcan.jpg"
-              srcset="img/gallery/vulcan.jpg 1x, img/gallery/vulcan@2x.jpg 2x"
-              alt="vulcan"
-            />
-            <img class="gallery-list__img gallery-list__img--large"
-              src="./img/gallery/mountain.jpg"
-              srcset="img/gallery/mountain.jpg 1x, img/gallery/mountain@2x.jpg 2x"
-              alt="mountain"
-            />
-          </li>
-          <li class="gallery-list__item">
-            <img class="gallery-list__img gallery-list__img--medium"
-              src="./img/gallery/lawn.jpg"
-              srcset="img/gallery/lawn.jpg 1x, img/gallery/lawn@2x.jpg 2x"
-              alt="lawn"
-            />
-            <img class="gallery-list__img gallery-list__img--medium"
-              src="./img/gallery/village.jpg"
-              srcset="img/gallery/village.jpg 1x, img/gallery/village@2x.jpg 2x"
-              alt="girls"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="helping">
-        <h2 class="helping__title">Getting there</h2>
-        <ul class="helping-list">
-          <li class="helping-list__item">
-            <div class="numbers">
-              <p class="number">1</p>
-            </div>
+        <section class="helping">
+          <div class="inner-container">
+          <h2 class="helping__title">Getting there</h2>
+          <ul class="helping-list">
+            <li class="helping-list__item">
+              <div class="numbers">
+                <p class="number">1</p>
+              </div>
 
-            <h3 class="helping-list__title">Bookings your flights</h3>
-            <p class="helping-list__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed
-              euismod orci dictum faucibus malesuada. Praesent sed eros
-              tincidunt, viverra neque auctor, lobortis enim.
-            </p>
-          </li>
-          <li class="helping-list__item">
-            <div class="numbers">
-              <p class="number">2</p>
-            </div>
+              <h3 class="helping-list__title">Bookings your flights</h3>
 
-            <h3 class="helping-list__title">Choosing your hotel</h3>
-            <p class="helping-list__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed
-              euismod orci dictum faucibus malesuada. Praesent sed eros
-              tincidunt, viverra neque auctor, lobortis enim.
-            </p>
+              <input type="checkbox" id="helping-input-one" />
 
-            <div class="travelling">
-              <img
-                src="./img/bike.jpg"
-                srcset="./img/bike.jpg 1x, ./img/bike@2x.jpg 2x"
-                alt="bike"
-              />
+              <label for="helping-input"
+                >Lorem ipsum dolor sit amet, <br />
+                <span class="more">Show more</span></label
+              >
 
-              <h3 class="travelling__title">Travelling there</h3>
-
-              <p class="travelling__paragraph">
+              <p class="helping-list__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+                Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                eros tincidunt, viverra neque auctor, lobortis enim.
               </p>
-            </div>
-          </li>
-          <li class="helping-list__item">
-            <div class="numbers">
-              <p class="number">3</p>
-            </div>
 
-            <h3 class="helping-list__title">Planning your experiences</h3>
-            <p class="helping-list__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              dapibus mauris in lectus tempus, eget tincidunt lacus varius.
-            </p>
-          </li>
-        </ul>
-      </section>
+              <!-- .helping-input:checked .helping-list__paragrah{
+  display:block;
+}
 
-      <footer>
+.helping-input:checked {
+  display:none;
+} додати клас до лейбела -->
+            </li>
+            <li class="helping-list__item">
+              <div class="numbers">
+                <p class="number">2</p>
+              </div>
+
+              <h3 class="helping-list__title">Choosing your hotel</h3>
+              <input type="checkbox" id="helping-input-two" />
+
+              <label for="helping-input"
+                >Lorem ipsum dolor sit amet, <br />
+                <span class="more">Show more</span></label
+              >
+              <p class="helping-list__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                eros tincidunt, viverra neque auctor, lobortis enim.
+              </p>
+
+              <article class="travelling">
+                <div class="travelling-thumb">
+                  <img
+                    src="./img/helping/bike.jpg"
+                    srcset="
+                      ./img/helping/bike.jpg    1x,
+                      ./img/helping/bike@2x.jpg 2x
+                    "
+                    alt="bike"
+                    class="travelling-img"
+                  />
+                </div>
+
+                <div class="travelling-box">
+                  <h3 class="travelling__title">Travelling there</h3>
+                  <input type="checkbox" id="article-helping-input" />
+
+                  <label for="helping-input"
+                    >Lorem ipsum dolor sit amet, <br />
+                    <span class="more">Show more</span></label
+                  >
+                  <p class="travelling__paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="helping-list__item">
+              <div class="numbers">
+                <p class="number">3</p>
+              </div>
+
+              <h3 class="helping-list__title">Planning your experiences</h3>
+              <input type="checkbox" id="helping-input-three" />
+
+              <label for="helping-input"
+                >Lorem ipsum dolor sit amet, <br />
+                <span class="more">Show more</span></label
+              >
+              <p class="helping-list__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                varius.
+              </p>
+            </li>
+          </ul>
+          <button type="button" class="travelling-button">Learn More</button>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <a class="to-top" href="#header">
+          <svg class="to-top__svg">
+            <use href="./img/icons/symbol-defs.svg#icon-to-top"></use>
+          </svg>
+        </a>
         <a class="footer-logo" href="./index.html">
           <svg>
             <use href="./img/icons/symbol-defs.svg#icon-flower"></use>
           </svg>
-          Explore Indonesia</a
+          Explore <span class="indonesia">Indonesia</span></a
         >
         <ul class="footer-list">
           <li class="footer-list__item">
@@ -470,8 +489,8 @@
           </li>
         </ul>
 
-        <p class="copyright">Copyright © 2019</p>
+        <p class="copyright">Copyright &copy; 2019</p>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
