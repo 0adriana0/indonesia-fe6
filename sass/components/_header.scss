@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+}
+
+.header-container {
+  padding: 48px 24px 0 24px;
+}
+
+.header-logo {
+  width: 148px;
+
+  &__svg {
+    fill: #fff;
+    width: 21px;
+    height: 43px;
+  }
+}
