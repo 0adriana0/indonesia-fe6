@@ -236,21 +236,21 @@
                 adipiscing elit.
               </p>
               <ul class="statistics-list">
-                <li class="statistics-list__item">
+                <li class="statistics-list__itemone">
                   <h3 class="statistics-list__title">100+</h3>
                   <p class="statistics-list__info">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce commodo magna et libero.
                   </p>
                 </li>
-                <li class="statistics-list__item">
+                <li class="statistics-list__itemtwo">
                   <h3 class="statistics-list__title">43,000+</h3>
                   <p class="statistics-list__info">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce commodo.
                   </p>
                 </li>
-                <li class="statistics-list__item">
+                <li class="statistics-list__itemthree">
                   <h3 class="statistics-list__title">30+</h3>
                   <p class="statistics-list__info">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -276,6 +276,7 @@
           </div>
         </section>
         <section class="life">
+          <div class="backdrop">
           <div class="inner-container">
             <h2 class="life__title">
               Live a life like you wouldn’t imagine, experience a life you
@@ -305,11 +306,13 @@
                     <use href="./img/icons/symbol-defs.svg#icon-play"></use>
                   </svg>
                 </div>
+                <div class="life-list__box">
                 <h4 class="life-list__subtitle">In The Country</h4>
-                <p class="life-list__description">
+                <p class="life-list__description life-list__description--1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus dapibus mauris in lectus tempus.
                 </p>
+                </div>
               </li>
               <li class="life-list__item">
                 <div class="life__thumb life__thumb--3">
@@ -322,60 +325,75 @@
                     <use href="./img/icons/symbol-defs.svg#icon-play"></use>
                   </svg>
                 </div>
+                <div class="life-list__box">
                 <h4 class="life-list__subtitle">In The City</h4>
-                <p class="life-list__description">
+                <p class="life-list__description life-list__description--2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus dapibus mauris in.
                 </p>
+                </div>
               </li>
             </ul>
           </div>
+          </div>
         </section>
-          <section class="gallery">
-        <h2 class="gallery__title">Photo Gallery</h2>
-        <p class="gallery__subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          dapibus mauris in lectus tempus, eget tincidunt.
-        </p>
-        <ul class="gallery-list">
-          <li class="gallery-list__item">
-            <img class="gallery-list__img gallery-list__img--large"
-              src="./img/gallery/girls.jpg"
-              srcset="img/gallery/girls.jpg 1x, img/gallery/girls@2x.jpg 2x"
-              alt="girls"
-            />
-            <img class="gallery-list__img gallery-list__img--small"
-              src="./img/gallery/sea.jpg"
-              srcset="img/gallery/sea.jpg 1x, img/gallery/sea@2x.jpg 2x"
-              alt="sea"
-            />
-          </li>
-          <li class="gallery-list__item">
-            <img class="gallery-list__img gallery-list__img--small"
-              src="./img/gallery/vulcan.jpg"
-              srcset="img/gallery/vulcan.jpg 1x, img/gallery/vulcan@2x.jpg 2x"
-              alt="vulcan"
-            />
-            <img class="gallery-list__img gallery-list__img--large"
-              src="./img/gallery/mountain.jpg"
-              srcset="img/gallery/mountain.jpg 1x, img/gallery/mountain@2x.jpg 2x"
-              alt="mountain"
-            />
-          </li>
-          <li class="gallery-list__item">
-            <img class="gallery-list__img gallery-list__img--medium"
-              src="./img/gallery/lawn.jpg"
-              srcset="img/gallery/lawn.jpg 1x, img/gallery/lawn@2x.jpg 2x"
-              alt="lawn"
-            />
-            <img class="gallery-list__img gallery-list__img--medium"
-              src="./img/gallery/village.jpg"
-              srcset="img/gallery/village.jpg 1x, img/gallery/village@2x.jpg 2x"
-              alt="girls"
-            />
-          </li>
-        </ul>
-      </section>
+        <section class="gallery">
+          <h2 class="gallery__title">Photo Gallery</h2>
+          <p class="gallery__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            dapibus mauris in lectus tempus, eget tincidunt.
+          </p>
+          <ul class="gallery-list">
+            <li class="gallery-list__item">
+              <img
+                class="gallery-list__img gallery-list__img--large"
+                src="./img/gallery/girls.jpg"
+                srcset="img/gallery/girls.jpg 1x, img/gallery/girls@2x.jpg 2x"
+                alt="girls"
+              />
+              <img
+                class="gallery-list__img gallery-list__img--small"
+                src="./img/gallery/sea.jpg"
+                srcset="img/gallery/sea.jpg 1x, img/gallery/sea@2x.jpg 2x"
+                alt="sea"
+              />
+            </li>
+            <li class="gallery-list__item">
+              <img
+                class="gallery-list__img gallery-list__img--small"
+                src="./img/gallery/vulcan.jpg"
+                srcset="img/gallery/vulcan.jpg 1x, img/gallery/vulcan@2x.jpg 2x"
+                alt="vulcan"
+              />
+              <img
+                class="gallery-list__img gallery-list__img--large"
+                src="./img/gallery/mountain.jpg"
+                srcset="
+                  img/gallery/mountain.jpg    1x,
+                  img/gallery/mountain@2x.jpg 2x
+                "
+                alt="mountain"
+              />
+            </li>
+            <li class="gallery-list__item">
+              <img
+                class="gallery-list__img gallery-list__img--medium"
+                src="./img/gallery/lawn.jpg"
+                srcset="img/gallery/lawn.jpg 1x, img/gallery/lawn@2x.jpg 2x"
+                alt="lawn"
+              />
+              <img
+                class="gallery-list__img gallery-list__img--medium"
+                src="./img/gallery/village.jpg"
+                srcset="
+                  img/gallery/village.jpg    1x,
+                  img/gallery/village@2x.jpg 2x
+                "
+                alt="girls"
+              />
+            </li>
+          </ul>
+        </section>
         <section class="helping">
           <div class="inner-container">
             <h2 class="helping__title">Getting there</h2>
