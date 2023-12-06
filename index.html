@@ -343,9 +343,9 @@
 
                 <h3 class="helping-list__title">Bookings your flights</h3>
 
-                <input type="checkbox" id="helping-input-one" />
+                <input class="helping-input" type="checkbox" id="helping-input-one" />
 
-                <label for="helping-input"
+                <label for="helping-input-one" class="helping-label"
                   >Lorem ipsum dolor sit amet, <br />
                   <span class="more">Show more</span></label
                 >
@@ -364,7 +364,7 @@
 
 .helping-input:checked {
   display:none;
-} додати клас до лейбела -->
+}  -->
               </li>
               <li class="helping-list__item">
                 <div class="numbers">
@@ -372,9 +372,9 @@
                 </div>
 
                 <h3 class="helping-list__title">Choosing your hotel</h3>
-                <input type="checkbox" id="helping-input-two" />
+                <input class="helping-input" type="checkbox" id="helping-input-two" />
 
-                <label for="helping-input"
+                <label for="helping-input-two" class="helping-label"
                   >Lorem ipsum dolor sit amet, <br />
                   <span class="more">Show more</span></label
                 >
@@ -399,18 +399,22 @@
                     />
                   </div>
 
-                  <div class="travelling-box">
-                    <h3 class="travelling__title">Travelling there</h3>
-                    <input type="checkbox" id="article-helping-input" />
+                  <div class="travelling-box">  
+                    <input class="helping-input" type="checkbox" id="article-helping-input" />
 
-                    <label for="helping-input"
+                    <label for="article-helping-input" class="helping-label"
                       >Lorem ipsum dolor sit amet, <br />
                       <span class="more">Show more</span></label
                     >
-                    <p class="travelling__paragraph">
+                    <p class="helping-list__paragraph">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+                      Phasellus dapibus mauris in lectus tempus, eget tincidunt
+                      lacus varius. Sed euismod orci dictum faucibus malesuada.
+                      Praesent sed eros tincidunt, viverra neque auctor, lobortis
+                      enim.
                     </p>
+    
+                    
                   </div>
                 </article>
               </li>
@@ -420,17 +424,20 @@
                 </div>
 
                 <h3 class="helping-list__title">Planning your experiences</h3>
-                <input type="checkbox" id="helping-input-three" />
+                <input  class="helping-input" type="checkbox" id="helping-input-three" />
 
-                <label for="helping-input"
+                <label for="helping-input-three" class="helping-label"
                   >Lorem ipsum dolor sit amet, <br />
                   <span class="more">Show more</span></label
                 >
                 <p class="helping-list__paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus dapibus mauris in lectus tempus, eget tincidunt
-                  lacus varius.
+                  lacus varius. Sed euismod orci dictum faucibus malesuada.
+                  Praesent sed eros tincidunt, viverra neque auctor, lobortis
+                  enim.
                 </p>
+
               </li>
             </ul>
             <button type="button" class="travelling-button">Learn More</button>
