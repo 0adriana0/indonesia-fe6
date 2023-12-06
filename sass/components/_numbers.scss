@@ -2,21 +2,27 @@
   background-color: rgba(2, 12, 34, 0.9);
   width: 376px;
   height: 929px;
+  padding-top: 72px;
 }
 .statistics-list__itemone {
+  justify-content: space-between;
+  text-align: center;
   margin-bottom: 89px;
 }
 .statistics-list__itemtwo {
+  justify-content: space-between;
+  text-align: center;
   margin-bottom: 44px;
 }
 .statistics-list__itemthree {
+  justify-content: space-between;
+  text-align: center;
   margin-bottom: 69px;
 }
 .statistics__title {
   margin-bottom: 57px;
   margin-right: 32px;
   margin-left: 30px;
-  margin-top: 72px;
   width: 314px;
   height: 52px;
   color: #fff;
