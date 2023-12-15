@@ -6,7 +6,17 @@
 }
 
 .header .inner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
   padding: 48px 30px 0;
+
+  @media (min-width: 1200px) {
+    justify-content: flex-start;
+    padding: 28px 28px 0;
+    max-width: 1921px;
+  }
 }
 
 .header-logo {
@@ -14,12 +24,19 @@
   align-items: flex-end;
   margin-right: 94px;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 21px;
   font-weight: 900;
   line-height: 0.8;
   letter-spacing: 0.28px;
   text-transform: uppercase;
+
+  @media (min-width: 1200px) {
+    line-height: 80.5%;
+    letter-spacing: 0.32px;
+    font-size: 24px;
+    margin-right: 78px;
+  }
 
   &__svg {
     fill: #fff;
@@ -42,4 +59,30 @@
 
 .header-navigation {
   display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
+    width: 100%;
+  }
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 5%;
+
+  @media (min-width:1200px){
+    width:572px;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
 }
