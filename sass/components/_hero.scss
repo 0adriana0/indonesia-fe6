@@ -3,7 +3,7 @@
 
   @media (min-width: 1200px) {
     max-width: 100%;
-    padding: 266px 0 0 277px;
+    padding: 266px 0 0 0;
   }
 }
 
@@ -21,6 +21,7 @@
   }
 
   &__title {
+     
     color: #fff;
     font-family: "Roboto";
     font-size: 58px;
@@ -32,6 +33,7 @@
       font-size: 120px;
       line-height: 130px;
       margin-bottom: 21px;
+      padding-left: 271px;
     }
   }
 
@@ -55,6 +57,7 @@
       font-size: 20px;
       font-style: normal;
       line-height: 150%;
+      margin-left: 271px;
     }
   }
 }
@@ -62,6 +65,7 @@
 .hero__box {
   @media screen and (min-width: 1200px) {
     display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -70,15 +74,21 @@
   flex-direction: column;
   gap: 32px;
   padding: 35px 71px 30px 32px;
-  width: 314px;
   border: 1px solid #000;
   background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  overflow: hidden;
 
   @media screen and (min-width: 1200px) {
     flex-direction: row;
-    width: 1225px;
+    max-width: 1225px;
     padding: 41px 0 50px 71px;
-    gap: 198px;
+    max-width: 1225px;
+
+  }
+
+  @media screen and (min-width: 1645px) {
+    padding-left: 277px;
   }
 
   &__number {
@@ -116,6 +126,8 @@
     @media screen and (min-width: 1200px) {
       font-size: 16px;
       line-height: 28px;
+      width: 210.109px;
+      height: 46px;
     }
   }
 }
@@ -125,8 +137,9 @@
   width: 100%;
 
   @media screen and (min-width: 1200px) {
-    width: 417px;
-    height: 254px;
+    min-width: 380px;
+    max-width: 417px;
+    height: auto;
   }
   //   height: 191px;
 
