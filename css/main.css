@@ -690,7 +690,7 @@ button {
 .statistics {
   background-color: rgba(2, 12, 34, 0.9);
   width: 100%;
-  padding: 60px 31px 69px;
+  padding: 60px 0 69px;
 }
 @media screen and (min-width: 1200px) {
   .statistics {
@@ -822,7 +822,7 @@ button {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url(../../img/hills-img/Whangaehu.png);
+  background-image: url(../img/hills-img/Whangaehu.png);
   background-repeat: no-repeat;
   z-index: -1;
   width: 100%;
